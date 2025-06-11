@@ -1,0 +1,129 @@
+p, a, label {
+    font-family: 'Maiden Orange', sans-serif; 
+    font-size: 20px; 
+}
+
+body {
+    padding: 0px;
+}
+
+header {
+    display: flex;
+}
+
+navbar {
+    font-family: 'Maiden Orange', sans-serif;
+}
+
+h1 {
+    font-family: 'ewert', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'sancreek', sans-serif;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    padding : 20px;
+}
+
+.product-list-container {
+    display:flex;
+    flex-wrap: wrap;
+}
+.product-list {
+    display: flex;
+    justify-content: center;
+    padding : 20px;
+    flex-direction: column;
+    
+}
+
+.product-item {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+#home-header {
+    display: flex;
+    justify-content: center;
+    padding : 20px;
+    font-family: 'sancreek', sans-serif;
+}
+
+#product-header {
+    display: flex;
+    justify-content: center;
+}
+
+#best-selling-container, #hats-container, #stickers-container {
+    display: flex;
+    justify-content: center;
+    padding : 20px;
+}
+
+#best-selling, #hats, #stickers {
+   
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+#about-paragraph-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding : 20px;
+
+}
+
+#about-paragraph {
+    display: flex;
+
+}
+
+#contact-form {
+    display: flex;
+    justify-content: center;
+    padding : 20px;
+    flex-direction: column;
+}
+
+#product-pic {
+    width: 300px;
+    height: 300px;
+}
+
+#best-selling-img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: center;
+    padding : 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    padding : 20px;
+}
+
+#single-product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 20px;
+}
+
+#single-product-img {
+    width: 600px;
+    height: 600px;
+}
